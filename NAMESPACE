@@ -1,0 +1,28 @@
+exportPattern("^[[:alpha:]]+")
+
+import(methods)
+
+importFrom(plyr, ldply)
+importFrom(moments, kurtosis)
+importFrom(nortest, sf.test)
+importFrom(nortest, cvm.test)
+importFrom(nortest, lillie.test)
+importFrom(nortest, ad.test)
+importFrom(robustbase, covMcd)
+importFrom(MASS, kde2d)
+importFrom(graphics, persp)
+importFrom(graphics, contour)
+importFrom(stats, mahalanobis)
+importFrom(mvoutlier, arw)
+importFrom(psych, describe)
+
+
+export(hzTest)
+export(mardiaTest)
+export(roystonTest)
+export(mvnPlot)
+export(mvOutlier)
+
+exportClasses("hz")
+exportClasses("mardia")
+exportClasses("royston")

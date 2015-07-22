@@ -4,7 +4,8 @@ language: r
 sudo: required
 
 r_github_packages:
-  - selcukorkmaz/MVN
+  - jimhester/covr
 
 after_success:
-  - Rscript -e 'MVN::codecov()'
+  - Rscript -e 'covr::codecov()'
+  

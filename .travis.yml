@@ -2,3 +2,9 @@
 
 language: r
 sudo: required
+
+r_github_packages:
+  - selcukorkmaz/MVN
+
+after_success:
+  - Rscript -e 'MVN::codecov()'

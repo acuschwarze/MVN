@@ -14,7 +14,7 @@ Maintainer: Selcuk Korkmaz <selcuk.korkmaz@hacettepe.edu.tr>
 URL: http://www.biosoft.hacettepe.edu.tr/MVN/
 Depends: R (>= 2.15.0)
 VignetteBuilder: knitr
-Suggests: knitr
+Suggests: knitr, testthat
 Imports: methods, nortest, moments, MASS, robustbase, mvoutlier, plyr, psych
 Collate: classes.R mardiaTest.R hzTest.R roystonTest.R mvOutlier.R mvnPlot.R uniNorm.R uniPlot.R
 Description: Performs multivariate normality tests and graphical approaches and implements multivariate outlier detection and univariate normality of marginal distributions through plots and tests. 

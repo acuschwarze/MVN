@@ -8,4 +8,3 @@ r_github_packages:
   
 after_success:
   - Rscript -e 'library(covr);codecov()'
-  -bash <(curl -s https://codecov.io/bash) -t f070c0e7-7478-4746-950e-1b0aef4c7f41

@@ -9,7 +9,7 @@ This function includes options for contour plot in \code{mvnPlot} function
 \usage{
 contourControl(nlevels = 20, labels = NULL, xlab = NULL, ylab = NULL, labcex = 0.6, 
 drawlabels = TRUE, method = c("simple", "edge", "flattest"), axes = TRUE, 
-frame.plot = axes, col = par("fg"), lty = par("lty"), lwd = par("lwd"))
+frame.plot = TRUE, col = par("fg"), lty = par("lty"), lwd = par("lwd"))
 }
 \arguments{
   \item{nlevels}{

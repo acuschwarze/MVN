@@ -1,5 +1,5 @@
 mvnPlot <-
-function(object, type=c("persp","contour"), default = TRUE, plotCtrl = c(perspControl(), contourControl())){
+function(object, type=c("persp","contour"), default = TRUE, plotCtrl = c(perspControl(), contourControl()), ...){
     
     type <- match.arg(type)
     if (!(class(object)[1]  %in% c("mardia", "hz", "royston"))) stop("Object must be in one of the following classes: \"mardia\", \"hz\", \"royston\" ")
